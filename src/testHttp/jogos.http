@@ -1,0 +1,21 @@
+@url = https://8080-juaanlxx-gamessw2024-uu7vv8d60lv.ws-us116.gitpod.io
+
+GET {{url}}/jogos
+
+###
+
+GET {{url}}/jogos/1
+
+
+###
+
+POST {{url}}/jogos
+Content-Type: application/json
+
+{
+    "titulo": "Crash 2",
+    "plataformas": [
+        {"id": 1},
+        {"id": 2}
+    ]
+}
